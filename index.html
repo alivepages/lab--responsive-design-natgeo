@@ -1,83 +1,129 @@
+<!DOCTYPE html>
 <html>
-   <head>
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <title>National Geographic</title>
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
-      <link rel="stylesheet" href="./css/styles.css">
-   </head>
-   <body>
-      <header>
-        <div class="grid">
-          <img class="logo" src="./images/logo-ng.png" alt="logo">
-          <div class="menu">
-            <div class="menu-icon"></div>
-            <div class="menu-icon"></div>
-            <div class="menu-icon"></div>
-          </div>
-        </div>
-      </header>
-      <main>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>National Geographic</title>
+  </head>
+  <body>
+    <!-- NAV -->
+          <nav class="nav">
+            <img class="logo-ng" src="./images/logo-ng.png" alt="">
+            <i class="fa fa-bars menu"></i>
+            <!-- <a href="#" class="menu">=</a> -->
+
+            <!-- MENU LIST ON DESKTOP -->
+            <ul class="menu-list">
+              <li>Adventures</li>
+              <li>Travel</li>
+              <li>Photography</li>
+              <li>History</li>
+            </ul>
+            <!-- MENU LIST ON DESKTOP -->
+          </nav>
+          <hr class="divider">
+          <!-- NAV -->
+          <div class="container">
+            <!-- SECTION -->
+            <h1 class="title">Photography</h1>
+            <h2 class="subtitle">Travel Photography</h2>
+            <a class="see-more" href="#">See more</a>
+            <!-- SECTION -->
+
+            <!-- ARTICLE -->
+            <div class="grid">
+              <img class="img-article" src="./images/img-compact-cameras.png" alt="">
+              <div>
+                <h3>Top 10 Compact Cameras for Travelers</h3>
+                <p class="quote">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
+              </div>
+            </div>
+            <!-- ARTICLE -->
+
+            <!-- ARTICLE -->
+            <div class="grid">
+                <img class="img-article" src="./images/img-compact-cameras.png" alt="">
+                <div>
+                  <h3>Top 10 Compact Cameras for Travelers</h3>
+                  <p class="quote">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
+                </div>
+            </div>
+            <!-- ARTICLE -->
+
+            <button class="show-more">Show more</button>
+        </div> <!-- END CONTAINER -->
+
         <div class="container">
-          <h1>Photography</h1>
-          <div class="content">
-            <h2>Travel Photography</h2>
-            <span class="link"><a href="#">See more</a></span>
-            <article>
-              <img src="./images/img-compact-cameras.png" alt="">
-              <h3>Top 10 Compact Cameras for Travelers</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-            </article>
-            <article>
-              <img src="./images/img-supermoon.png" alt="">
-              <h3>How to Photograph a Supermoon</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-              <input type="button" name="" value="Show more">
-            </article>
+          <!-- SECTION -->
+          <h1 class="title">Photos of the year</h1>
+          <a class="see-more" href="#">See more</a>
+          <!-- SECTION -->
+
+          <!-- ARTICLE -->
+          <div class="grid">
+              <img class="img-article img-long" src="./images/img-tree-monkey.png" alt="">
+              <div>
+              </div>
           </div>
-          <div class="content">
-            <h2>Photos of the year</h2>
-            <span class="link"><a href="#">See more</a></span>
-            <article>
-              <img src="./images/img-tree-monkey.png" alt="">
-            </article>
-          </div>
+          <!-- ARTICLE -->
+
+      </div>
+
+        <footer class="footer">
+          <div class="grid">
+          <div class="section-footer">
+          <h2>Follow Nat Geo Photography</h2>
+
+          <!-- SOCIAL MEDIA -->
+          <ul class="social-media">
+            <li><a href="#"><i class="fa fa-twitter twitter"></i></a></li>
+            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+          </ul>
         </div>
-      </main>
-      <footer>
-        <ul class="grid grid1">
-          <li>
-            <h2>Foolow Nat Geo Photography</h2>
-            <div class="social">
-              <i class="fa fa-twitter" aria-hidden="true"></i>
-              <i class="fa fa-facebook" aria-hidden="true"></i>
-              <i class="fa fa-instagram" aria-hidden="true"></i>
+          <!-- SOCIAL MEDIA -->
+
+
+            <!-- SECTION -->
+            <div class="section-footer">
+              <h3>Community</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <a href="#" class="see-more">Join</a>
             </div>
-          </li>
-          <li>
-            <h2>Comunity</h2>
-            <p>Join Your Shot, our photography community. Submit to assigments and get feedback from our photo editors</p>
-            <a href="#">Join</a>
-          </li>
-          <li>
-            <h2>Picture Stories</h2>
-            <p>Check out lastest work form National Geographic
-            photographers and visual storytellers around the world.</p>
-            <a href="#">See more</a>
-          </li>
-        </ul>
-        <div class="grid grid2">
-          <div>
-            <h2>Suscribe to Newsletters</h2>
-            <div class="suscribe">
-              <input type="text" name="" value="">
-              <input type="button" name="" value="SIGN UP">
+            <!-- SECTION -->
+
+            <!-- SECTION -->
+            <div class="section-footer">
+              <h3>From the Archive</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <a href="#" class="see-more">Join</a>
+            </div>
+            <!-- SECTION -->
+
+            <!-- SECTION -->
+            <div class="section-footer">
+              <h3>Picture Stories</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <a href="#" class="see-more">Join</a>
+            </div>
+            <!-- SECTION -->
+          </div>
+
+          <div class="suscribe">
+            <div class="section-suscribe col1">
+              <h3>Subscribe to Newsletter</h3>
+              <div>
+                <input type="text" name="" value="">
+                <input type="button" name="" value="SIGN UP">
+              </div>
+            </div>
+            <div class="section-suscribe col2">
+              <h3>Follow Us</h3>
             </div>
           </div>
-          <div>
-            <h2>Follow Us</h2>
-          </div>
-        </div>
-      </footer>
-   </body>
+        </footer>
+
+  </body>
 </html>
